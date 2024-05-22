@@ -11,6 +11,7 @@ interface ConvexClientProviderProps {
 const convexUrl = process.env.NEXT_PUBLIC_CONVEX_URL!;
 const convex = new ConvexReactClient(convexUrl);
 
+//lord help me with projects
 export const ConvexClientProvider = ({children, }: ConvexClientProviderProps ) =>{
     return (
         <ClerkProvider>
